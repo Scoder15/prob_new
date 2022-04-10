@@ -1,20 +1,10 @@
-package main
+package prob
 
 import (
-	"fmt"
 	"math"
 )
 
-func main() {
-	fmt.Println("hello")
-	fmt.Println(divide(2, 4))
-	tot := 1
-	tot += 1 << 2
-	fmt.Println(tot)
-
-}
-
-func divide(a, b int) int {
+func Divide(a, b int) int {
 	sign := 1
 	if a*b < 0 {
 		sign = -1
@@ -47,14 +37,14 @@ func abs(a int) int {
 	return a
 }
 
-func qpow(a, n int) int {
-	ans := 1
-	for a > 0 {
-		if n&1 > 0 {
-			ans *= a
-		}
-		a *= a
-		n >>= 1
-	}
-	return ans
-}
+// func qpow(a, n int) int {
+// 	ans := 1
+// 	for a > 0 {
+// 		if n&1 > 0 {
+// 			ans *= a
+// 		}
+// 		a *= a
+// 		n >>= 1
+// 	}
+// 	return ans
+// }
