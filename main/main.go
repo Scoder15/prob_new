@@ -20,5 +20,6 @@ func main() {
 	// m['c'] = true
 	// m['w'] = true
 	// fmt.Println(prob.IsHaveSameStr(m, "baz"))
-	fmt.Println(prob.TwoSum([]int{3, 2, 4}, 6))
+	//fmt.Println(prob.TwoSum([]int{3, 2, 4}, 6))
+	fmt.Println(prob.MinSubArrayLen(4, []int{1, 4, 4}))
 }
