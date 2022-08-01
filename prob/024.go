@@ -1,7 +1,7 @@
 package prob
 
 func reverseList(head *ListNode) *ListNode {
-	pre := &ListNode{}
+	var pre *ListNode
 	pre.Next = head
 	cur := head
 	for cur != nil {
