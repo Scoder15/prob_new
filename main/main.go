@@ -26,5 +26,6 @@ func main() {
 	// fmt.Println(prob.FindAnagrams("cbaebabacd", "abc"))
 	// fmt.Println(prob.FindAnagrams("abab", "ab"))
 	fmt.Println(prob.AsteroidCollision([]int{5, 10, -5}))
-	//fmt.Println(prob.IsPalindrome("baa"))
+	fmt.Println(prob.LargestRectangleArea([]int{}))
+	//fmt.Println(prob.IsPalindrome("baa")
 }

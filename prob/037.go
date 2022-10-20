@@ -1,6 +1,6 @@
 package prob
 
-func asteroidCollision(asteroids []int) []int {
+func AsteroidCollision(asteroids []int) []int {
 	stack := make([]int, 0)
 	for _, v := range asteroids {
 		for len(stack) > 0 && stack[len(stack)-1] > 0 && v < 0 { //碰撞条件
